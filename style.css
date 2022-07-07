@@ -87,3 +87,97 @@ h1 {
     color: rgba(252, 141, 77, 0.741);
 
 }
+
+.gallery {
+    width: 1000px;
+    height: 400px;
+    background: #ccc;
+    background-image: url(images/donation5.jpg);
+    margin: 120px auto;
+    display: flex;
+}
+
+.col {
+    height: 100%;
+    display: flex;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.col:nth-child(1) {
+    background: green;
+}
+
+.captain {
+    max-width: 230px;
+    font-size: 12px;
+    margin: 28px 0;
+}
+
+.captain button {
+    border: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 8px 18px;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 12px
+}
+
+#help {
+    text-align: center;
+}
+
+.bol {
+    padding: 0;
+    margin: 0;
+    font-family: 'robot' sans-serif;
+    box-sizing: border-box;
+    background: #ececec;
+}
+
+.vox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+
+.form-box button {
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(248, 49, 49);
+    cursor: pointer;
+    transition: 3s;
+}
+
+footer {
+    background: rgb(15, 12, 8);
+    height: fit-content;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.orange-color {
+    color: rgb(180, 77, 9);
+}
